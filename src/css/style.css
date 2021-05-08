@@ -1,0 +1,258 @@
+.ubuntu {
+	font-family: "Ubuntu Mono", monospace;
+}
+
+.montse {
+	font-family: "Montserrat", sans-serif;
+}
+
+.poppins {
+	font-family: "Poppins", sans-serif;
+}
+
+.notoSans {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+/*-----------------------------SEARCH--------------------------------*/
+
+div.buscador {
+	width: 500px;
+	height: 55px;
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+	border-radius: 16px;
+	transition: 0.2s all ease;
+	margin: 10px 40px;
+}
+
+div.buscador.activo {
+	width: 100%;
+	height: 55px;
+	margin-top: 30px;
+}
+
+div.logo {
+	display: block;
+	transition: 0.5s all ease;
+	margin: 0 40px;
+}
+
+div.logo.logo-activo {
+	display: none;
+	transition: 0.5s all ease;
+}
+
+select.select {
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	font-weight: bold;
+}
+
+
+div.addGuests {
+	padding: 0 3px;
+	width: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+}
+
+button.btn-guests{
+	margin: 0 4px;
+	font-size: 24px;
+	border-color: transparent;
+	border-radius: 12px;
+	background: transparent;
+
+}
+
+span.addGuests{
+	font-weight: bold;
+}
+
+span.guests{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+button.btn-danger {
+	content: " Search";
+	background: white;
+	color: #eb5757;
+	border: 1px solid #f2f2f2;
+}
+
+button.btn {
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+}
+
+button.btn-activo {
+	content: " Search";
+	color: white;
+	background: #eb5757;
+	border-color: #eb5757;
+	transition: 0.2s all ease;
+}
+
+button.btn-activo::after {
+	content: " Search";
+	color: white;
+}
+
+.mdsearch {
+	font-size: 24px;
+}
+
+div.container-search {
+	padding-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	transition: 0.2s all ease;
+}
+
+div.container-search.activo {
+	display: flex;
+	align-items: flex-start;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 50vh;
+	justify-content: space-between;
+	background: #ffffff;
+	transition: 0.2s all ease;
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.5);
+	border-radius: 16px;
+}
+
+div.titleAndStays{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+span.titleFin{
+	margin-top: 20px;
+	margin-right: 80px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 29px;
+
+	color: #333333;
+}
+
+h3.titleFin {
+	margin-left: 40px;
+	margin-top: 20px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+
+	color: #333333;
+}
+
+img.location-card {
+	width: 395px;
+	height: 269px;
+	border-radius: 24px;
+}
+
+div.div-photo {
+	width: 395px;
+	height: 269px;
+	left: 94px;
+	top: 209px;
+}
+
+div.location-container {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div.location-container.grayScale {
+	filter: grayscale(100%);
+}
+
+div.tarjeta {
+	width: 395px;
+	height: 360px;
+	left: 94px;
+	top: 209px;
+}
+
+div.items-info {
+	margin: 10px 10px;
+}
+
+span.item-rating {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	position: relative;
+	float: right;
+	color: #4f4f4f;
+	margin-right: 10px;
+}
+
+button.item-host {
+	border: 1px solid #4f4f4f;
+	box-sizing: border-box;
+	border-radius: 12px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	margin-right: 11px;
+	text-transform: uppercase;
+
+	color: #4f4f4f;
+}
+
+span.item-type {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #828282;
+}
+
+.item-star {
+	color: #eb5757;
+}
+
+h4.item-title {
+	margin-top: 12px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+}
+
+.create {
+	color: #9e9e9e;
+	font-weight: 500;
+}
+
+.create span {
+	font-weight: 700;
+}
